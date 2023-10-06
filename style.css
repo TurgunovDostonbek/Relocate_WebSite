@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo{
+    padding: 28px 0px 22px 100px;
+}
+
+.nav_logo h1{
+    color: #0CA296;
+font-family: Smith Allison;
+font-size: 82px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: lowercase;
+}
+
+.nav_link ul{
+    display: flex;
+    gap: 30px;
+    padding: 33px 161px 33px 0px;
+}
+
+.nav_link a{
+    color: #000;
+    text-align: right;
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.section1{
+    height: 595px;
+    background-image: url(./img/blogimg/image\ 1\ \(1\).png);
+}
+
+
+
+
+
+
+
+
+
+
+.section2{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.left_link{
+    padding: 5px 0px 40px 0px;
+}
+
+
+.left_link a{
+    padding: 0px 45px 17px 0px;
+    color: #565656;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;    
+}
+
+.section_left{
+    padding-left: 33px;
+    
+    
+}
+
+.imge{
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.image_info{
+    padding: 50px 0px 0px 0px;
+}
+
+.image_info h1{
+    color: #565656;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;   
+}
+
+
+.imge p{
+    
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.imge1{
+    display: flex;
+    align-items: end;
+    background-image: url(./img/blogimg/image\ 2\ \(5\).png);
+    width: 194px;
+    height: 202px;
+    flex-shrink: 0;
+}
+
+
+
+.imge2{
+    display: flex;
+    align-items: end;
+    background-image: url(./img/blogimg/image\ 2\ \(4\).png);
+    width: 194px;
+    height: 202px;
+    flex-shrink: 0;
+    
+}
+
+
+.imge3{
+
+    display: flex;
+    align-items: end;
+    background-image: url(./img/blogimg/image\ 2\ \(6\).png);
+    width: 194px;
+    height: 202px;
+    flex-shrink: 0;
+}
+
+.section_right{
+    padding-top: 5px;
+    padding-left: 149px ;
+}
+
+.right_info{
+    width: 504px;
+    height: 132px;
+    flex-shrink: 0;
+    border: 2px solid rebeccapurple;
+}
+
+.right_imge{
+    padding: 40px 0px;
+}
